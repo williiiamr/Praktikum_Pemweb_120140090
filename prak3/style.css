@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+p {
+    color: grey;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d9f2fd;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.card {
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0 40px 0;
+    background-color: white;
+    width: 60%;
+    float: right;
+}
+
+.pp {
+    width: 70px;
+}
+
+.profile {
+   position: fixed;
+   float: left;
+   width: 18%;
+   margin-left: 200px;
+   background: #1363DF;
+   height: 800px;
+   color: white;
+}
+
+span, label {
+    color: orangered;
+    font-size: 30px;
+}
+#About-me, #Experience{
+    margin-right: 170px;
+}
+
+#About-me table {
+    float: left;
+    padding-top: 10px;
+    text-align: left;
+}
+#About-me th {
+    color: grey;
+}
+.table2 {
+    padding-left: 170px;
+}
+
+#About-me {
+    padding-left: 30px;
+}
+
+.description {
+    float: right;
+    width: 85%;
+    padding: 0 50px 0 50px;
+}
+
+#About-me img {
+    width: 15%;
+    float: left;
+
+}
+hr {
+    margin: 0 0 25px 0;
+    border-radius: 20%;
+    height: 6px;
+    width: 45px;
+    background-color: #E14D2A;
+}
+
+.cvDownload {
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    width: 150px;
+    font-size: 15px;
+    background-color: #E14D2A;
+    margin: 35px 15px 40px 250px;
+    border-radius: 30px;
+    height: 40px;
+}
+
+.cvDownload:hover {
+    cursor: pointer;
+    background-color: white;
+    color: orangered;
+}
+
+
+#Experience {
+    height: 450px;
+}
+
+.list {
+    border-left: 2px solid black;
+    height: 100%; 
+    position: relative;   
+}
+
+#Reach-me {
+    width: 1140px;
+    margin-right: 172px;
+}
+
+.form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+label {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+
+button {
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    width: 150px;
+    font-size: 15px;
+    background-color: #E14D2A;
+    border-radius: 40px;
+    height: 40px;
+    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button5:hover {
+    cursor: pointer;
+    background-color: white;
+    color: orangered;
+}
+
+footer {
+    padding: 8px 10px;
+    width: 100%;
+    position: absolute;
+    color: white;
+    background-color: #1363DF;
+    margin-top: 1700px;
+    text-align: center;
+  }
+
+table img {
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+
+}
+
+#nav td{
+    padding-bottom: 30px;
+}
+
+aside p {
+    color: black;
+    font-weight: 900;
+    position: relative;
+    bottom: 12px;
+}
+
+#darkMode .iconSun {
+    width: 24px;
+    height: 24px;
+}
+
+#darkMode {
+    width: 40px;
+    float: right;
+    position: absolute;
+    top:25px;
+    right: 35px;
+}
+
+#darkMode:hover {
+    cursor: pointer;
+    background-color: white;
+    
+}
+@media screen and (max-width: 768px){
+
+    .profile{
+        display: none;
+    }
+
+    .table2 {
+        float: none;
+        padding-left: 0px ;
+    }
+
+    .cvDownload {
+        margin: 30px 0 30px 65px ;
+    }
+
+    .card {
+        max-width: 80%;
+        float: left;
+        margin-left: 120px;
+    }
+
+    #About-me,#Experience {
+        width: 80%;
+    }
+
+    footer {
+        margin-top: 1745px;;
+    }
+}
+
+@media screen and (max-width: 414px){
+
+    .profile{
+        display: none;
+    }
+
+    .table2 {
+        float: none;
+        padding-left: 0px ;
+    }
+
+    .card {
+        max-width: 90%;
+        float: left;
+        margin-left: 90px;
+    }
+
+    #About-me,#Experience {
+        width: 90%;
+    }
+
+    footer {
+        margin-top: 1850px;
+        width: 480px;
+    }
+
+    #About-me img {
+        float: right;
+        position: relative;
+        top: -88px;
+    }
+
+    #About-me .description {
+        padding-left: 0;
+        width: 100%;
+        margin-top: -35px;
+    }
+
+}
